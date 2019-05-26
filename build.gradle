@@ -13,6 +13,8 @@ dependencies {
     runtime 'taglibs:standard:1.1.2'
 }
 
+webAppDirName = "webfiles"
+
 war {
     from "static"
 }
@@ -22,4 +24,3 @@ jettyRun {
     contextPath = "todo"
 }
 
-webAppDirName = "webfiles"
